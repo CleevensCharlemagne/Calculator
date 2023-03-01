@@ -14,6 +14,11 @@ int main()
     printf("3. Multiplication\n");
     printf("4. Division\n\n");
 
+    printf("Enter number: "); //User input for the calculator menu
+    scanf("%d", &menu);
+
+    printf("\n");
+
 
     return 0;
 }
