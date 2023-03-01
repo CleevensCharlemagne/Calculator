@@ -19,6 +19,23 @@ int main()
 
     printf("\n");
 
+    switch(menu) //switch statement for menu
+    {
+    case 1:
+        printf("You entered Addition\n\n");
+
+        printf("Enter first number: "); //User input for first number
+        scanf("%f", &num1);
+
+        printf("Enter second number: "); //User input for second number
+        scanf("%f", &num2);
+
+        printf("\n");
+
+        result = num1 + num2; //Addition calculation
+
+        printf("%.2f + %.2f = %.2f\n", num1, num2, result); //Addition output
+        break;
 
     return 0;
 }
