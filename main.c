@@ -66,7 +66,23 @@ int main()
 
         printf("%.2f * %.2f = %.2f\n", num1, num2, result); //Multiplication Output
         break;
+    case 4:
+        printf("You entered Division\n\n");
 
+        printf("Enter first number: "); //User input for first number
+        scanf("%f", &num1);
+
+        printf("Enter second number: "); //User input for first number
+        scanf("%f", &num2);
+
+        printf("\n");
+
+        result = num1 / num2; //Division calculation
+
+        printf("%.2f / %.2f = %.2f\n", num1, num2, result);
+        break;
+
+    }
     return 0;
 }
 //End of code
