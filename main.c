@@ -81,7 +81,9 @@ int main()
 
         printf("%.2f / %.2f = %.2f\n", num1, num2, result);
         break;
-
+    default:
+        printf("Enter correct number e.g 1 - 4\n"); //Outputted if the user enters a value other than 1 - 4
+        break;
     }
     return 0;
 }
