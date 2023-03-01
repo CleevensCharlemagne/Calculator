@@ -51,6 +51,21 @@ int main()
 
         printf("%.2f - %.2f = %.2f\n", num1, num2, result); //Subtraction output
         break;
+    case 3:
+        printf("You entered Multiplication\n\n");
+
+        printf("Enter first number: "); //User input for first number
+        scanf("%f", &num1);
+
+        printf("Enter second number: "); //User input for second number
+        scanf("%f", &num2);
+
+        printf("\n");
+
+        result = num1 * num2; //Multiplication calculation
+
+        printf("%.2f * %.2f = %.2f\n", num1, num2, result); //Multiplication Output
+        break;
 
     return 0;
 }
